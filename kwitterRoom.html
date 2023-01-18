@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="kwitterRoom.js"></script>
+</head>
+<body>
+    <button onclick="logout()" id="logout" class="btn btn-success">Log Out</button>
+	
+	<center>
+		<h1 class="header">	
+			Kiwitter
+		</h1> <img width="45px" src="https://static.vecteezy.com/system/resources/previews/008/506/558/original/kiwi-fruit-split-cartoon-png.png">
+		<h3 id="userName" class="color_white"></h3>
+
+		<div>
+			<label>#Adicionar Sala:</label>
+            <br>
+            <br>
+			<input type="text" id="roomName" class="form-control" placeholder="#Nome da Sala">		
+		<br>
+        <br>
+        </div>
+		<button id="addRoom" onclick="addSala()">#Adicionar Sala</button>
+
+		<h3 class="color_white">#SALASTRENDING</h3>
+			<div id="output"></div>
+		
+	</center>
+</div>
+</body>
+</html>
